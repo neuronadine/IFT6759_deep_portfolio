@@ -1,4 +1,4 @@
-from .base import Chunker
+from .chunker import Chunker
 from .LangChainChunker import LangChainChunker
 
 class ChunkerFactory:
