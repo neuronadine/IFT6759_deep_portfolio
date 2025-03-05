@@ -1,4 +1,4 @@
 # from langchain_text_splitter import MarkdownTextSplitter
 
-class LangChainCunker:
+class LangChainChunker:
     pass
