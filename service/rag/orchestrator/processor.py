@@ -3,7 +3,7 @@ from typing import TYPE_CHECKING, Any
 
 # from web_scraper.
 
-from rag.chunkers.factory import ChunkerFactory
+from rag.retrieval.factory import ChunkerFactory
 from rag.config.python_schema import Config
 from rag.feature_extractors.factory import FeatureExtractorFactory
 from rag.models.factory import ResponseSchemaFactory
