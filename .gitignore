@@ -1,0 +1,28 @@
+# Ignore virtual environment directories
+.venv/
+venv/
+env/
+ENV/
+
+# Ignore data folders
+data/
+datasets/
+logs/
+
+# Ignore all file types except .json, .py, and .ipynb
+# *
+# !*.json
+# !*.py
+# !*.ipynb
+
+# Ignore specific OS files
+.DS_Store
+Thumbs.db
+
+# Ignore Python cache files
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Ignore Jupyter Notebook checkpoints
+.ipynb_checkpoints/
